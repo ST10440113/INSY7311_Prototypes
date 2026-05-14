@@ -171,7 +171,7 @@
 
 
     <Button
-        android:id="@+id/buttonLogin"
+        android:id="@+id/buttonRegister"
         android:layout_width="254dp"
         android:layout_height="72dp"
         android:backgroundTint="#5ABA5B"

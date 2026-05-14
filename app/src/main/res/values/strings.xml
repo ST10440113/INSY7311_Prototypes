@@ -13,4 +13,11 @@
     <string name="personalization_questions">Personalization Questions</string>
     <string name="question_1_of_10">QUESTION 1 OF 10</string>
     <string name="_1_what_main_goals_do_you_wish_to_reach">1. What main goals do you wish to reach?</string>
+    <string name="improve_sleeping_patterns">Improve Sleeping Patterns</string>
+    <string name="improve_productivity">Improve Productivity</string>
+    <string name="manage_anxiety">Manage Anxiety</string>
+    <string name="reduce_stress">Reduce Stress</string>
+    <string name="boost_productivity">Boost Productivity</string>
+    <string name="other">Other</string>
+    <string name="cont">Continue</string>
 </resources>
