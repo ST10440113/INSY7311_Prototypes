@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">INSY7311_Prototypes</string>
+    <string name="steppingstone">SteppingStone</string>
+    <string name="login">Login</string>
+    <string name="username">USERNAME</string>
+    <string name="email_address">EMAIL ADDRESS</string>
+    <string name="password">PASSWORD</string>
+    <string name="no_account_register_here">No Account? Register Here!</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="confirm_password">CONFIRM PASSWORD</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="please_complete_all_fields">* Please complete all fields</string>
+    <string name="personalization_questions">Personalization Questions</string>
+    <string name="question_1_of_10">QUESTION 1 OF 10</string>
+    <string name="_1_what_main_goals_do_you_wish_to_reach">1. What main goals do you wish to reach?</string>
+</resources>
