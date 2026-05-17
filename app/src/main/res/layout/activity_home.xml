@@ -3,8 +3,275 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:background="@drawable/homepagebackground"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Home">
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/libre_baskerville"
+        android:text="@string/steppingstone"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/libre_baskerville"
+        android:text="@string/welcome"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.099" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385" />
+
+    <TextView
+        android:id="@+id/textViewAffirmation"
+        android:layout_width="360dp"
+
+        android:layout_height="192dp"
+        android:background="@drawable/affirmation_background"
+        android:fontFamily="@font/libre_baskerville"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/i_am_worthy_of_receiving_good_things_and_of_accomplishing_my_goals_in_life"
+        android:textColor="#F4F0EE"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.215" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="360dp"
+        android:layout_height="394dp"
+        android:background="#E4D5C1"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.836">
+
+        <TextView
+            android:id="@+id/card_title"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:background="#CCADDC6B"
+            android:gravity="center_horizontal"
+            android:text="@string/my_goals"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.517" />
+
+        <TextView
+            android:id="@+id/goal1"
+            android:layout_width="331dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="15sp"
+            android:background="@drawable/edit_text_background"
+            android:gravity="center_vertical"
+            android:paddingStart="6sp"
+            android:paddingEnd="6sp"
+            android:text="@string/exercise_for_1_hour"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:drawableEndCompat="@drawable/baseline_check_box_24"
+
+
+            />
+
+        <TextView
+            android:id="@+id/goal2"
+            android:layout_width="331dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="15sp"
+            android:background="@drawable/edit_text_background"
+            android:gravity="center_vertical"
+            android:paddingStart="6sp"
+            android:paddingEnd="6sp"
+            android:text="@string/try_pomodora_study_technique"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:drawableEndCompat="@drawable/baseline_check_box_24" />
+
+        <TextView
+            android:id="@+id/goal3"
+            android:layout_width="331dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="15sp"
+            android:background="@drawable/edit_text_background"
+            android:gravity="center_vertical"
+            android:paddingStart="6sp"
+            android:paddingEnd="6sp"
+            android:text="@string/meditate_for_30_minutes"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:drawableEndCompat="@drawable/baseline_rectangle_24" />
+
+        <TextView
+            android:id="@+id/goal4"
+            android:layout_width="329dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="15sp"
+            android:background="@drawable/edit_text_background"
+            android:gravity="center_vertical"
+            android:paddingStart="6sp"
+            android:paddingEnd="6sp"
+            android:text="@string/play_with_pet_dog"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:drawableEndCompat="@drawable/baseline_rectangle_24" />
+
+        <TextView
+            android:id="@+id/goal5"
+            android:layout_width="329dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="15sp"
+            android:background="@drawable/edit_text_background"
+            android:gravity="center_vertical"
+            android:paddingStart="6sp"
+            android:paddingEnd="6sp"
+            android:text="@string/read_chapter_5_of_textbook"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:drawableEndCompat="@drawable/baseline_rectangle_24" />
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="409dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#F4F0EC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" >
+
+        <ImageView
+            android:id="@+id/imageViewHome"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:contentDescription="@string/home"
+            app:srcCompat="@drawable/home" />
+
+        <TextView
+            android:id="@+id/textViewHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/home"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imageViewChart"
+            android:layout_width="52dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="95dp"
+            android:contentDescription="@string/progress"
+            app:srcCompat="@drawable/chart" />
+
+        <TextView
+            android:id="@+id/textViewChart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:text="@string/progress" />
+
+        <ImageView
+            android:id="@+id/imageViewAdd"
+            android:layout_width="52dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="180dp"
+            android:contentDescription="@string/add_goal"
+            app:srcCompat="@drawable/circle_add" />
+
+        <TextView
+            android:id="@+id/textViewAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/add_goal"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imageViewWellness"
+            android:layout_width="52dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="259dp"
+            android:contentDescription="@string/wellness"
+            app:srcCompat="@drawable/wellness" />
+
+        <TextView
+            android:id="@+id/textViewWellness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="259dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/wellness"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imageViewProfile"
+            android:layout_width="52dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="338dp"
+            android:contentDescription="@string/profile"
+            app:srcCompat="@drawable/person" />
+
+        <TextView
+            android:id="@+id/textViewProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="346dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/profile"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+
+    </androidx.cardview.widget.CardView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

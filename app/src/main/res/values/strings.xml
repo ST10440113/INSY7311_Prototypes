@@ -20,4 +20,18 @@
     <string name="boost_productivity">Boost Productivity</string>
     <string name="other">Other</string>
     <string name="cont">Continue</string>
+    <string name="welcome">Welcome!</string>
+    <string name="i_am_worthy_of_receiving_good_things_and_of_accomplishing_my_goals_in_life">I am worthy of receiving good things and of accomplishing my goals in life</string>
+    <string name="my_goals">My Goals</string>
+    <string name="exercise_for_1_hour">Exercise for 1 hour</string>
+    <string name="try_pomodora_study_technique">Try pomodora study technique</string>
+    <string name="meditate_for_30_minutes">Meditate for 30 minutes</string>
+    <string name="play_with_pet_dog">Play with pet dog</string>
+    <string name="home">Home</string>
+    <string name="progress">Progress</string>
+    <string name="add_goal">Add Goal</string>
+    <string name="wellness">Wellness</string>
+    <string name="profile">Profile</string>
+    <string name="wellness_resources">Wellness Resources</string>
+    <string name="read_chapter_5_of_textbook">Read chapter 5 of textbook</string>
 </resources>
