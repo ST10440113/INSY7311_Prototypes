@@ -34,4 +34,9 @@
     <string name="profile">Profile</string>
     <string name="wellness_resources">Wellness Resources</string>
     <string name="read_chapter_5_of_textbook">Read chapter 5 of textbook</string>
+    <string name="home_wellness_resources">Home / Wellness Resources</string>
+    <string name="guided_meditation">Guided Meditation</string>
+    <string name="_3_5_minutes_of_a_guided_meditation_to_help_clear_your_mind">3-5 minutes of a guided meditation to help clear your mind</string>
+    <string name="ventpad">VentPad</string>
+    <string name="organize_your_thoughts_and_understand_your_mind_better_by_physically_typing_them_out">Organize your thoughts and understand your mind better by physically typing them out</string>
 </resources>
